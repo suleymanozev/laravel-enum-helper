@@ -1,0 +1,23 @@
+<?php
+
+namespace Suleymanozev\LaravelEnumHelper\Tests\Support\WithoutDocBlockEnums;
+
+use Suleymanozev\LaravelEnumHelper\LaravelEnumHelper;
+
+/**
+ * StatusWithoutDocBlock summary
+ *
+ * StatusWithoutDocBlock description
+ */
+enum StatusWithoutMethodTagDocBlock
+{
+    use LaravelEnumHelper;
+
+    case PENDING;
+
+    case ACCEPTED;
+
+    case DISCARDED;
+
+    case NO_RESPONSE;
+}
